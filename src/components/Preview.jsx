@@ -1,6 +1,15 @@
 import React from 'react';
+import BackgroundSlideshow from 'react-background-slideshow'
 
 const Preview = () => {
+
+    var settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    };
 
     let imgs = [
         {
@@ -17,6 +26,7 @@ const Preview = () => {
 
     return (
         <div className="carousel">
+            <BackgroundSlideshow images={[imgs[0].img, imgs[1].img]} />
         </div>
     )
 }

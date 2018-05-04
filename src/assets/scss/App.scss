@@ -1,16 +1,23 @@
 @import "vars";
 @import "navbar";
-@import "resets";
 @import "comps";
+@import "resets";
+@import "inc";
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 .flex-layout {
-    display: flex;
+    overflow-x: hidden;
     .section-sidebar {
-        flex: 2
+        width: 20%;
+        position: fixed;        
+        z-index: 100;
     }
+
     .app-content {
-        flex: 9;
+        margin-left: 30%;
+        width: 60%;
+        z-index: -1;
+        overflow-y: auto !important;
     }
 }

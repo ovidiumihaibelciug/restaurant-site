@@ -11,6 +11,9 @@ class App extends Component {
                 <Sidebar />
                 <div className="app-content">
                     <Preview />
+                    <div className="custom-margin">
+                        asdasdasda
+                    </div>
                 </div>
             </section>
         );

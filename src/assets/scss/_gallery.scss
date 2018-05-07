@@ -1,0 +1,35 @@
+#gallery {
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .gallery-item {
+        width: 100%;
+        min-height: 400px;
+        margin: 5% 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .item {
+            width: 50%;
+            &.gallery-item-text {
+                margin-left: 5%;
+                width: 30%;
+                font-size: 1.2rem;
+                font-weight: 300;
+                text-indent: 10px;
+                color: rgba(0, 0, 0, .7);
+                text-shadow: 0 0 2px rgba(0, 0, 0, .2);
+            }
+            &.gallery-item-image {
+                margin-right: 5%;
+                min-height: 70%;
+                min-width: 40%;
+                background-position: center center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+    
+}

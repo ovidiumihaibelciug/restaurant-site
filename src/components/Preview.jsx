@@ -2,24 +2,15 @@ import React from 'react';
 import BackgroundSlideshow from 'react-background-slideshow'
 
 const Preview = () => {
-
-    var settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
-    };
-
     let imgs = [
         {
             id: 1,
-            img: 'http://unitedtemplates.com/food%20and%20restuarant/template2/img/banner.jpg',
+            img: 'https://www.pixelstalk.net/wp-content/uploads/images1/Free-hd-restaurant-wallpapers.jpg',
             caption: 'Lorem ipsum'
         },
         {
             id: 2,
-            img: 'http://ak7.picdn.net/shutterstock/videos/4448807/thumb/8.jpg?i10c=img.resize(height:160)',
+            img: 'https://www.pixelstalk.net/wp-content/uploads/images1/Restaurant-backgrounds-HD.jpg',
             caption: 'Lorem ipsum dolor situm'
         }
     ];

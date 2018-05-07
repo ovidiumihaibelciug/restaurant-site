@@ -3,6 +3,8 @@ import './assets/scss/App.css'
 
 import Sidebar from './components/Sidebar';
 import Preview from './components/Preview';
+import Menus from './components/Menus';
+import Gallery from './components/Gallery';
 
 class App extends Component {
     render() {
@@ -11,9 +13,8 @@ class App extends Component {
                 <Sidebar />
                 <div className="app-content">
                     <Preview />
-                    <div className="custom-margin">
-                        asdasdasda
-                    </div>
+                    <Menus />
+                    <Gallery />
                 </div>
             </section>
         );

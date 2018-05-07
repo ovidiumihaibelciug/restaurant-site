@@ -5,7 +5,7 @@ const Sidebar = () => {
         <section className="section-sidebar">
             <div className="navbar-logo"><span>CTRL</span></div>
             <div className="navbar-menu">
-                <div className="menu-item"><a href="">Menus</a></div>
+                <div className="menu-item"><a href="#menus">Menus</a></div>
                 <div className="menu-item"><a href="">About Us</a></div>
                 <div className="menu-item"><a href="">Gallery</a></div>
                 <div className="menu-item"><a href="">Contact</a></div>

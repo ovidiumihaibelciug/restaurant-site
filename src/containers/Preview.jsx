@@ -1,6 +1,9 @@
 import React from 'react';
 import BackgroundSlideshow from 'react-background-slideshow'
 
+import App from '../App';
+import About from '../components/About';
+
 const Preview = () => {
     let imgs = [
         {
@@ -16,9 +19,12 @@ const Preview = () => {
     ];
 
     return (
-        <div className="carousel">
-            <BackgroundSlideshow images={[imgs[0].img, imgs[1].img]} />
-        </div>
+        <App>
+            <div className="carousel">
+                <BackgroundSlideshow images={[imgs[0].img, imgs[1].img]} />
+            </div>
+            <About />
+        </App>
     )
 }
 

@@ -1,0 +1,35 @@
+#about {
+    padding-top: 5%;
+    margin-left: 15%;
+    height: 100vh;
+    background: linear-gradient(to right,#fff 36%,rgba(255,255,255,0) 80%, rgba($laser, .2) 100%), url('http://manofmany.com/wp-content/uploads/2016/09/wpid-1180178.jpg') center center !important;
+    box-shadow: 5px 5px 10px 10px rgba(0,0,0,.2) !important;
+    position: relative;
+    .container {
+        .about-title {
+            // text-align: center;
+            padding: 50px;
+            font-size: 2.5rem;
+            font-weight: 500;
+            font-family: Roboto !important;
+            color: rgba(0,0,0, .7);
+            // text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .about-description {
+            width: 40%;
+            font-size: 1.1rem;
+            text-indent: 10px;
+            line-height: 1.5rem;
+            color: rgba(0,0,0, .6);
+        }
+    }
+    .about-footer {
+        height: 12%;
+        width: 100%;
+        position: absolute;
+        bottom: 1px;
+        background-color: rgba(0,0,0,.1);
+        box-shadow: 0 5px 10px 0 rgba(0,0,0,.2);
+    }
+}

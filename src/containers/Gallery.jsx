@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
-import GalleryItem from "./GalleryItem";
+import GalleryItem from "../components/GalleryItem";
+import App from "../App";
 
 export default class Gallery extends Component {
 
@@ -22,11 +23,13 @@ export default class Gallery extends Component {
     render() {
         const { items } = this.state;
         return (
-            <section id="gallery">
-                {
-                    items.map(item => <GalleryItem item={item} />)
-                }
-            </section>
+            <App>
+                <section id="gallery">
+                    {
+                        items.map(item => <GalleryItem item={item} />)
+                    }
+                </section>
+            </App>
         )
     }
 }

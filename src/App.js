@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import './assets/scss/App.css'
 
 import Sidebar from './components/Sidebar';
-import Preview from './components/Preview';
-import Menus from './components/Menus';
-import Gallery from './components/Gallery';
 
 class App extends Component {
     render() {
@@ -12,9 +9,7 @@ class App extends Component {
             <section className="App flex-layout">
                 <Sidebar />
                 <div className="app-content">
-                    <Preview />
-                    <Menus />
-                    <Gallery />
+                    {this.props.children}
                 </div>
             </section>
         );

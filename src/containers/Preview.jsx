@@ -42,10 +42,11 @@ const Preview = () => {
                     <Slider {...settings}>
                         <div>
                             <img src={imgs[0].img} alt="" />
-
+                            <div className="preview-text">Lorem ipsum dolor sit amet.</div>
                         </div>
                         <div>
                             <img src={imgs[1].img} alt="" />
+                            <div className="preview-text">Lorem, ipsum dolor. </div>
                         </div>
                     </Slider>
                     <div className="go-down-btn" onClick={scrollDown}>

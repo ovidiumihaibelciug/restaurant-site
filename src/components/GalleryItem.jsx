@@ -4,7 +4,7 @@ const GalleryItem = ({ item }) => {
     const { side, text, img } = item;
 
     return (
-        <div className="gallery-item">
+        <div className="gallery-item  animated jello">
             {
                 side === 1 ? (
                     <React.Fragment>

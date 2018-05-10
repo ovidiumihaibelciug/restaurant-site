@@ -1,19 +1,17 @@
 #about {
     padding-top: 5%;
-    margin-left: 15%;
     height: 100vh;
-    background: linear-gradient(to right,#fff 36%,rgba(255,255,255,0) 80%, rgba($laser, .2) 100%), url('http://manofmany.com/wp-content/uploads/2016/09/wpid-1180178.jpg') center center !important;
+    background: linear-gradient(to right, rgb(255, 255, 245) 36%,rgba(255,255,255,0) 80%, rgba($laser, .2) 100%), url('https://i.ytimg.com/vi/4sOKAtLxuiY/maxresdefault.jpg') left top !important;
     box-shadow: 5px 5px 10px 10px rgba(0,0,0,.2) !important;
     position: relative;
     .container {
         .about-title {
             // text-align: center;
-            padding: 50px;
+            padding: 40px;
             font-size: 2.5rem;
             font-weight: 500;
             font-family: Roboto !important;
             color: rgba(0,0,0, .7);
-            // text-transform: uppercase;
             letter-spacing: 2px;
         }
         .about-description {
@@ -23,6 +21,19 @@
             line-height: 1.5rem;
             color: rgba(0,0,0, .6);
         }
+        .about-image {
+            height: 150px;
+            width: 40%;
+            background: url('../img/2.png');
+            background-position: center center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            -webkit-animation: opacity_zoom 5s infinite;
+            animation: opacity_zoom 5s infinite;
+        }
     }
     .about-footer {
         height: 12%;
@@ -31,5 +42,127 @@
         bottom: 1px;
         background-color: rgba(0,0,0,.1);
         box-shadow: 0 5px 10px 0 rgba(0,0,0,.2);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .footer-item {
+            font-size: 1rem;
+            i {
+                font-size: 2rem;
+                color: $quincy;
+            }
+            line-height: 2rem;
+            font-weight: 500;
+            color: $mine-shaft;
+        }
     }
 }
+
+.services-section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background: whitesmoke;
+    padding: 0 30px;
+    .service-item {
+        padding: 20px;
+        // text-align: center;
+        margin: 10% 30px;
+        flex: 1;
+        height: auto;
+        border-bottom: 7px solid $laser;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .service-icon {
+            height: 100px;
+            width: 100px;    
+            background: url('../img/icon1.svg');
+            background-size: cover;
+            background-repeat: no-repeat; 
+        }
+        .service-title {
+            font-size: 1.2rem;
+            margin: 40px 0;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .service-description {
+            text-align: center;
+            margin-bottom: 40px;
+            color: rgba(0,0,0, .7);
+            line-height: 1.5rem;
+        }
+    }
+}
+
+.preview-section {
+    margin-left: 15%;
+    .carousel {
+        height: 100vh;
+        position: relative;
+    }
+}
+
+.go-down-btn { 
+    position: absolute;
+    left: 48%;
+    bottom: 50px;
+    z-index: -1;
+    content: '';
+    width: 44px;
+    height: 44px;
+    box-shadow: 0 0 0 0 rgba(255,255,255,.1);
+    border-radius: 100%;
+    opacity: 0;
+    -webkit-animation: sdb03 3s infinite;
+    animation: sdb03 3s infinite;
+    box-sizing: border-box;
+    z-index: 100;  
+    color: black;
+    background-color: rgba($laser, .7);
+    cursor: pointer;
+    &:hover {
+    background-color: rgba($laser, .9)        
+    }
+    i {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 1.2rem;
+    }
+  }
+  @-webkit-keyframes sdb03 {
+    0% {
+      opacity: 1;
+    }
+    30% {
+      opacity: 1;
+    }
+    60% {
+      box-shadow: 0 0 0 60px rgba(255,255,255,.1);
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes opacity_zoom {
+      0% {
+        opacity: .4;   
+      }
+      50% {
+        opacity: .9;
+        transform: scale(1.2);
+      }
+      100% {
+        transform: scale(1); 
+        opacity: .4;        
+      }
+  }

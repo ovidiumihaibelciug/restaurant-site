@@ -5,12 +5,17 @@
 @import "inc";
 @import "gallery";
 @import "home";
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+@import '../../../node_modules/font-awesome/scss/_variables.scss';
+$fa-font-path: "~font-awesome/fonts";
+@import "../../../node_modules/font-awesome/scss/font-awesome";
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 .flex-layout {
     overflow-x: hidden;
-    margin-bottom: 600px;
     .section-sidebar {
         width: 15%;
         position: fixed;        
@@ -19,6 +24,7 @@
 
     .app-content {
         z-index: -1;
-        overflow-y: auto !important;
+        min-height: 100vh;
+        overflow: hidden;
     }
 }

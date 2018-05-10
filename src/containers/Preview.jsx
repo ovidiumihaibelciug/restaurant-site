@@ -1,8 +1,15 @@
 import React from 'react';
-import BackgroundSlideshow from 'react-background-slideshow'
+import Slider from "react-slick";
 
 import App from '../App';
 import About from '../components/About';
+import Services from '../components/Services';
+
+const scrollDown = () => {
+    document.querySelector('#about').scrollIntoView({
+        behavior: 'smooth', block: "start", inline: "nearest"
+    })
+}
 
 const Preview = () => {
     let imgs = [
@@ -17,14 +24,38 @@ const Preview = () => {
             caption: 'Lorem ipsum dolor situm'
         }
     ];
+    var settings = {
+        dots: true,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        speed: 1000,
+        autoplaySpeed: 4000,
+        cssEase: "linear",
+    };
 
     return (
         <App>
-            <div className="carousel">
-                <BackgroundSlideshow images={[imgs[0].img, imgs[1].img]} />
-            </div>
-            <About />
-        </App>
+            <section className="preview-section">
+                <div className="carousel">
+                    <Slider {...settings}>
+                        <div>
+                            <img src={imgs[0].img} alt="" />
+
+                        </div>
+                        <div>
+                            <img src={imgs[1].img} alt="" />
+                        </div>
+                    </Slider>
+                    <div className="go-down-btn" onClick={scrollDown}>
+                        <i className="fa fa-arrow-down"></i>
+                    </div>
+                </div>
+                <About />
+                <Services />
+            </section>
+        </App >
     )
 }
 

@@ -5,15 +5,15 @@ import Gallery from './containers/Gallery';
 
 export const routes = [
     {
-      path: "/home",
-      component: Preview
-    },
-    {
-      path: "/menus",
+        path: "/menus",
       component: Menus
     },
     {
-      path: "/gallery",
-      component: Gallery
+        path: "/gallery",
+        component: Gallery
+    },
+    {
+        path: "/",
+        component: Preview
     },
 ];

@@ -1,16 +1,15 @@
-.carousel {
-    .box-gallery {
-        height: 100vh;
-        position: unset;
-    }
-}
+// .carousel {
+//     .box-gallery {
+//         height: 100vh;
+//         position: unset;
+//     }
+// }
 
 #menus {
     background-color: $ecru_white;
     margin-left: 15%;
     overflow-x: hidden !important;
     padding: $margin 0;
-
     .menu-nav {
         position: fixed;
         // display: none;
@@ -115,3 +114,4 @@
         }   
     }
 }
+

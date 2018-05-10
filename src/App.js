@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './assets/scss/App.css'
+import './assets/scss/App.css';
+import 'animate.css';
 
 import Sidebar from './components/Sidebar';
 

@@ -1,9 +1,9 @@
 import React from 'react';
-import ServiceItem from '../components/ServiceItem';
+import ServiceItem from './ServiceItem';
 
-import icon1 from '../assets/img/icon1.svg';
-import icon2 from '../assets/img/icon2.svg';
-import icon3 from '../assets/img/icon3.svg';
+import icon1 from '../../assets/img/icon1.svg';
+import icon2 from '../../assets/img/icon2.svg';
+import icon3 from '../../assets/img/icon3.svg';
 
 
 const Services = () => {

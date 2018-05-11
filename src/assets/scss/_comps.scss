@@ -30,23 +30,31 @@
             align-items: center;
             color: rgba(0,0,0, .6);
             letter-spacing: 3px;
-            .menu-nav-item {
-                padding: 30px 0;
+            a {
                 width: 100%;
-                text-align: center;
-                border-right: 2px solid transparent;
-                text-transform: uppercase;                    
-                span {  
-                    writing-mode: vertical-rl;
-                    text-orientation: sideways;
-                    transform: rotate(180deg);
+                .menu-nav-item {
+                    padding: 30px 0;
+                    width: 100%;
+                    text-align: center;
+                    border-right: 2px solid transparent;
+                    text-transform: uppercase;                    
+                    span {  
+                        writing-mode: vertical-rl;
+                        text-orientation: sideways;
+                        transform: rotate(180deg);
+                    }
+                    &:hover {
+                        border-color: rgba(0,0,0, .3);
+                        cursor: pointer;
+                    }
+                    &:active {
+                        border-color: $laser;
+                    }
                 }
-                &:hover {
-                    border-color: rgba(0,0,0, .3);
-                    cursor: pointer;
-                }
-                &:active {
-                    border-color: $laser;
+                &.menu-active {
+                    .menu-nav-item {
+                        border-color: $laser !important;                    
+                    }
                 }
             }
         }

@@ -1,12 +1,15 @@
-import React from 'react'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
-const NavMenuItem = () => {
+const NavMenuItem = ({ menu }) => {
     return (
-        <div className="menu-nav-item">
-            <span>
-                Lunch
-            </span>
-        </div>
+        <NavLink activeClassName='menu-active' to={'/menu/' + menu.id}>
+            <div className="menu-nav-item">
+                <span>
+                    {menu.shortTitle}
+                </span>
+            </div>
+        </NavLink>
     )
 }
 

@@ -2,8 +2,8 @@ import React from 'react';
 import Slider from "react-slick";
 
 import App from '../App';
-import About from '../components/About';
-import Services from '../components/Services';
+import About from '../components/Home/About';
+import Services from '../components/Home/Services';
 
 import ScrollAnimation from 'react-animate-on-scroll';
 

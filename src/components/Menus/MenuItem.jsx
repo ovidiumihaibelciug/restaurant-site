@@ -1,20 +1,25 @@
 import React from 'react'
 
-const MenuItem = () => {
+import ScrollAnimation from 'react-animate-on-scroll';
+
+const MenuItem = ({ menu }) => {
+    const { id, name, price, description } = menu;
     return (
         <div className="menu-item">
-            <div className="item-header">
-                <div className="item-title">
-                    Lorem, ipsum dolor. 1
+            <ScrollAnimation animateIn="lightSpeedIn" animateOut="bounceOutRight" delay={id * 100} >
+                <div className="item-header">
+                    <div className="item-title">
+                        {name}
+                    </div>
+                    <div className="item-price">
+                        {price + "$"}
+                    </div>
                 </div>
-                <div className="item-price">
-                    50$
+                <div className="item-description">
+                    {description}
                 </div>
-            </div>
-            <div className="item-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, quam?
-            </div>
-        </div>
+            </ScrollAnimation>
+        </div >
     )
 }
 

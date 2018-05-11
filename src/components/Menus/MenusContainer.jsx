@@ -4,11 +4,11 @@ import MenuItem from './MenuItem';
 
 export default class MenusContainer extends Component {
     render() {
-        const { children } = this.props;
+        const { children, title } = this.props;
         return (
             <div className="container">
                 <div className="title">
-                    Lunch table d'hote
+                    {title}
                 </div>
                 {children}
             </div>

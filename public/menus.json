@@ -1,0 +1,739 @@
+{
+    "menus": [
+        {
+            "id": 1,
+            "shortTitle": "Lunch",
+            "longTitle": "Lunch table d'hote",
+            "menus": [
+                {
+                    "id": 1,
+                    "title": "Appetizers",
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "Soup of the day",
+                            "price": 4,
+                            "description": ""
+                        },
+                        {
+                            "id": 2,
+                            "name": "Green Salad",
+                            "price": 8,
+                            "description": ""
+                        },
+                        {
+                            "id": 3,
+                            "name": "FRIED CHICKEN & HONEY",
+                            "price": 11,
+                            "description": "Butter milk chicken, Frosted Flakes crust, thyme honey glaze and chipotle mayo"
+                        },
+                        {
+                            "id": 4,
+                            "name": "SALMON TARTARE",
+                            "price": 13,
+                            "description": "Fennel, citrus and herb yogourt"
+                        },
+                        {
+                            "id": 5,
+                            "name": "BEEF TARTARE",
+                            "price": 13,
+                            "description": "Capers, shallots, fresh herbs"
+                        },
+                        {
+                            "id": 6,
+                            "name": "FRIED CALAMARI BOWL",
+                            "price": 14,
+                            "description": "Artichoke, jalapeño, chorizo, horseradish, spicy mayo"
+                        },
+                        {
+                            "id": 7,
+                            "name": "CRAB CAKES",
+                            "price": 15,
+                            "description": "Salmon, Nordic shrimp, snow crab herbs with creamy celery root salad"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title": "Main Course",
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "DUCK CONFIT POUTINE",
+                            "price": 17,
+                            "description": "Pickled red cabbage, green peas, caramelized onions, duck confit, gravy"
+                        },
+                        {
+                            "id": 2,
+                            "name": "MAC 'N' CHEESE",
+                            "price": 17,
+                            "description": "Cheddar and parmesan sauce with chili parmesan crumble"
+                        },
+                        {
+                            "id": 3,
+                            "name": "HALLOUMI",
+                            "price": 17,
+                            "description": "Roasted vegetables, celeriac purée, sunflower seeds, black olive crumble, pesto"
+                        },
+                        {
+                            "id": 4,
+                            "name": "GOAT CHEESE SALAD",
+                            "price": 18,
+                            "description": "Mixed greens, sunflower seeds, dried cranberries, maple dressing"
+                        },
+                        {
+                            "id": 4,
+                            "name": "BACON & GUINNESS CHEDDAR CHEESEBURGER",
+                            "price": 19,
+                            "description": "Sriracha fried onions, horseradish aioli"
+                        },
+                        {
+                            "id": 5,
+                            "name": "BEEF TARTARE",
+                            "price": 23,
+                            "description": "Capers, shallots, fresh herbs. Served with fries and/or salad"
+                        },
+                        {
+                            "id": 6,
+                            "name": "SALMON TARTARE",
+                            "price": 24,
+                            "description": "Fennel, citrus and herb yogourt. Served with fries and/or salad"
+                        },
+                        {
+                            "id": 7,
+                            "name": "DUCK CONFIT SHEPERD'S PIE",
+                            "price": 24,
+                            "description": "Braised cabbage and corn with house made fruit ketchup"
+                        },
+                        {
+                            "id": 8,
+                            "name": "BEEF BAVETTE & FRIES",
+                            "price": 28,
+                            "description": "8 oz bavette, vegetables, fries, peppercorn sauce"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "title": "Deserts",
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "POUDING CHÔMEUR",
+                            "price": 7,
+                            "description": "Maple English cream, duck confit, gravy"
+                        },
+                        {
+                            "id": 2,
+                            "name": "APPLE CRUMBLE",
+                            "price": 7,
+                            "description": "Granola, honeycrisp apple"
+                        },
+                        {
+                            "id": 3,
+                            "name": "CRÈME BRÛLÉE OF THE MOMENT",
+                            "price": 7,
+                            "description": "Flavor of the moment"
+                        },
+                        {
+                            "id": 4,
+                            "name": "CHOCOLATE TORTE",
+                            "price": 7,
+                            "description": "Cherry & espresso jam with candied walnut"
+                        },
+                        {
+                            "id": 5,
+                            "name": "CHEESECAKE",
+                            "price": 7,
+                            "description": "Berry coulis"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "title": "Coffees",
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "ESPRESSO / DOUBLE",
+                            "price": 3,
+                            "description": ""
+                        },
+                        {
+                            "id": 2,
+                            "name": "AMERICANO",
+                            "price": 3.25,
+                            "description": ""
+                        },
+                        {
+                            "id": 3,
+                            "name": "Lungo",
+                            "price": 3.75,
+                            "description": ""
+                        },
+                        {
+                            "id": 4,
+                            "name": "Macchiato",
+                            "price": 3.75,
+                            "description": ""
+                        },
+                        {
+                            "id": 5,
+                            "name": "CAPPUCCINO",
+                            "price": 3.75,
+                            "description": ""
+                        },
+                        {
+                            "id": 6,
+                            "name": "CAFÉ LATTE",
+                            "price": 3.75,
+                            "description": ""
+                        },
+                        {
+                            "id": 7,
+                            "name": "ICED COFFEE",
+                            "price": 4.50,
+                            "description": ""
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "title": "TEAS (CHOICE OF TEA POT)",
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "GREEN TEA TROPICAL",
+                            "price": 4.75,
+                            "description": ""
+                        },
+                        {
+                            "id": 2,
+                            "name": "JASMINE GREEN TEA",
+                            "price": 4.75,
+                            "description": ""
+                        },
+                        {
+                            "id": 3,
+                            "name": "BOMBAI CHAÏ",
+                            "price": 4.75,
+                            "description": ""
+                        },
+                        {
+                            "id": 4,
+                            "name": "ENGLISH BREAKFAST",
+                            "price": 4.75,
+                            "description": ""
+                        },
+                        {
+                            "id": 5,
+                            "name": "CHAMOMILE & CITRUS",
+                            "price": 4.75,
+                            "description": ""
+                        },
+                        {
+                            "id": 6,
+                            "name": "ORGANIC VERBANA MINT",
+                            "price": 4.75,
+                            "description": ""
+                        },
+                        {
+                            "id": 7,
+                            "name": "EARL GREY",
+                            "price": 4.75,
+                            "description": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "shortTitle": "Evening",
+            "longTitle": "Evening menu",
+            "menus": [
+                {
+                    "id": 1,
+                    "title": "Appetizers",
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "Soup of the day",
+                            "price": 4,
+                            "description": ""
+                        },
+                        {
+                            "id": 2,
+                            "name": "Green Salad",
+                            "price": 8,
+                            "description": ""
+                        },
+                        {
+                            "id": 3,
+                            "name": "FRIED CHICKEN & HONEY",
+                            "price": 11,
+                            "description": "Butter milk chicken, Frosted Flakes crust, thyme honey glaze and chipotle mayo"
+                        },
+                        {
+                            "id": 4,
+                            "name": "LA P'TITE POUTINE",
+                            "price": 12,
+                            "description": "Pickled red cabbage, green peas, caramelized onions, duck confit, gravy"
+                        },
+                        {
+                            "id": 5,
+                            "name": "BEEF TARTARE",
+                            "price": 13,
+                            "description": "Capers, shallots, fresh herbs"
+                        },
+                        {
+                            "id": 6,
+                            "name": "FRIED CALAMARI BOWL",
+                            "price": 14,
+                            "description": "Artichoke, jalapeño, chorizo, horseradish, spicy mayo"
+                        },
+                        {
+                            "id": 7,
+                            "name": "CRAB CAKES",
+                            "price": 15,
+                            "description": "Salmon, Nordic shrimp, snow crab herbs with creamy celery root salad"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title": "Main Course",
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "DUCK CONFIT POUTINE",
+                            "price": 17,
+                            "description": "Pickled red cabbage, green peas, caramelized onions, duck confit, gravy"
+                        },
+                        {
+                            "id": 2,
+                            "name": "MAC 'N' CHEESE",
+                            "price": 17,
+                            "description": "Cheddar and parmesan sauce with chili parmesan crumble"
+                        },
+                        {
+                            "id": 3,
+                            "name": "HALLOUMI",
+                            "price": 17,
+                            "description": "Roasted vegetables, celeriac purée, sunflower seeds, black olive crumble, pesto"
+                        },
+                        {
+                            "id": 4,
+                            "name": "GOAT CHEESE SALAD",
+                            "price": 18,
+                            "description": "Mixed greens, sunflower seeds, dried cranberries, maple dressing"
+                        },
+                        {
+                            "id": 5,
+                            "name": "GNOCCHI À LA FORESTIÈRE",
+                            "price": 21,
+                            "description": "Ricotta gnocchi, medley of mushrooms, porcini, shiitake velouté"
+                        },
+                        {
+                            "id": 6,
+                            "name": "SALMON TARTARE",
+                            "price": 24,
+                            "description": "Fennel, citrus and herb yogourt. Served with fries and/or salad"
+                        },
+                        {
+                            "id": 7,
+                            "name": "DUCK CONFIT SHEPERD'S PIE",
+                            "price": 24,
+                            "description": "Braised cabbage and corn with house made fruit ketchup"
+                        },
+                        {
+                            "id": 8,
+                            "name": "DUCK CONFIT SHEPERD'S PIE",
+                            "price": 24,
+                            "description": "Braised cabbage and corn, house made fruit ketchup"
+                        },
+                        {
+                            "id": 9,
+                            "name": "BEEF BAVETTE & FRIES",
+                            "price": 28,
+                            "description": "8 oz bavette, vegetables, fries, peppercorn sauce"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "title": "Deserts",
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "POUDING CHÔMEUR",
+                            "price": 7,
+                            "description": "Maple English cream, duck confit, gravy"
+                        },
+                        {
+                            "id": 2,
+                            "name": "APPLE CRUMBLE",
+                            "price": 7,
+                            "description": "Granola, honeycrisp apple"
+                        },
+                        {
+                            "id": 3,
+                            "name": "CRÈME BRÛLÉE OF THE MOMENT",
+                            "price": 7,
+                            "description": "Flavor of the moment"
+                        },
+                        {
+                            "id": 4,
+                            "name": "CHOCOLATE TORTE",
+                            "price": 7,
+                            "description": "Cherry & espresso jam with candied walnut"
+                        },
+                        {
+                            "id": 5,
+                            "name": "CHEESECAKE",
+                            "price": 7,
+                            "description": "Berry coulis"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "title": "Coffees",
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "ESPRESSO / DOUBLE",
+                            "price": 3,
+                            "description": ""
+                        },
+                        {
+                            "id": 2,
+                            "name": "AMERICANO",
+                            "price": 3.25,
+                            "description": ""
+                        },
+                        {
+                            "id": 3,
+                            "name": "Lungo",
+                            "price": 3.75,
+                            "description": ""
+                        },
+                        {
+                            "id": 4,
+                            "name": "Macchiato",
+                            "price": 3.75,
+                            "description": ""
+                        },
+                        {
+                            "id": 5,
+                            "name": "CAPPUCCINO",
+                            "price": 3.75,
+                            "description": ""
+                        },
+                        {
+                            "id": 6,
+                            "name": "CAFÉ LATTE",
+                            "price": 3.75,
+                            "description": ""
+                        },
+                        {
+                            "id": 7,
+                            "name": "ICED COFFEE",
+                            "price": 4.50,
+                            "description": ""
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "title": "TEAS (CHOICE OF TEA POT)",
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "GREEN TEA TROPICAL",
+                            "price": 4.75,
+                            "description": ""
+                        },
+                        {
+                            "id": 2,
+                            "name": "JASMINE GREEN TEA",
+                            "price": 4.75,
+                            "description": ""
+                        },
+                        {
+                            "id": 3,
+                            "name": "BOMBAI CHAÏ",
+                            "price": 4.75,
+                            "description": ""
+                        },
+                        {
+                            "id": 4,
+                            "name": "ENGLISH BREAKFAST",
+                            "price": 4.75,
+                            "description": ""
+                        },
+                        {
+                            "id": 5,
+                            "name": "CHAMOMILE & CITRUS",
+                            "price": 4.75,
+                            "description": ""
+                        },
+                        {
+                            "id": 6,
+                            "name": "ORGANIC VERBANA MINT",
+                            "price": 4.75,
+                            "description": ""
+                        },
+                        {
+                            "id": 7,
+                            "name": "EARL GREY",
+                            "price": 4.75,
+                            "description": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "shortTitle": "Brunch",
+            "longTitle": "Brunch menu",
+            "menus": [
+                {
+                    "id": 1,
+                    "title": "Brunch",
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "CLASSIC",
+                            "price": 13,
+                            "description": "2 eggs, homefries, bacon, brioche bread, oven-baked apple"
+                        },
+                        {
+                            "id": 2,
+                            "name": "SALMON GRAVLAX",
+                            "price": 15,
+                            "description": "Cream cheese, fine herbs, lemon, bagel chips"
+                        },
+                        {
+                            "id": 3,
+                            "name": "GRILLED CHEESE",
+                            "price": 15,
+                            "description": "Fried bologna, fruit ketchup, Mornay sauce, cheddar, home fries"
+                        },
+                        {
+                            "id": 4,
+                            "name": "AVOCADO SPREAD",
+                            "price": 16,
+                            "description": "Guacamole, heirloom tomatoes, parmesan, pumpernickel bread, fried egg, duck confit, gravy"
+                        },
+                        {
+                            "id": 5,
+                            "name": "SAN MARZANNO BAKED BEANS",
+                            "price": 17,
+                            "description": "Tomatoes and vegetables cassoulet, chipotle, 2 poched eggs, brioche bread"
+                        },
+                        {
+                            "id": 6,
+                            "name": "BENNY BOY",
+                            "price": 17,
+                            "description": "2 poched eggs, fried bologna, Mornay sauce, east cost biscuits, homefries"
+                        },
+                        {
+                            "id": 7,
+                            "name": "HUEVOS RANCHEROS",
+                            "price": 18,
+                            "description": "Pico di gallo, black bean spread, marinated jalapno, guacamole, citrus sour cream, tortilla, fried egg"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title": "SWEET AND SAVORY",
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "LITTLE MISS SUNSHINE",
+                            "price": 17,
+                            "description": "Yogourt, caramelized walnuts, granola, apple puree, maple syrup"
+                        },
+                        {
+                            "id": 2,
+                            "name": "PAPA CLAFOUTI",
+                            "price": 17,
+                            "description": "Oven-baked pancake with caramel, apples, bacon, caramelized walnuts, maple syrup, vanila ice cream"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "title": "LUNCH",
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "BEEF TATARE",
+                            "price": 23,
+                            "description": "Capers, shallots, fresh herbs. Served with fries and/or salad"
+                        },
+                        {
+                            "id": 2,
+                            "name": "SALMON TARTARE",
+                            "price": 24,
+                            "description": "Fennel, citrus and herb yogurt. Served with fries and/or salad"
+                        },
+                        {
+                            "id": 3,
+                            "name": "BREAKFAST BURGER",
+                            "price": 21,
+                            "description": "Beef patty, bacon, fried bologna, cheddar, chipotle mayonnaise, fried egg, iceberg lettuce. Served with fries"
+                        },
+                        {
+                            "id": 4,
+                            "name": "BREAKFAST POUTINE",
+                            "price": 19,
+                            "description": "Pickled red cabbage, green peas, caramelized onions, duck confit, gravy, poched egg"
+                        },
+                        {
+                            "id": 5,
+                            "name": "GOAT CHEESE SALAD",
+                            "price": 18,
+                            "description": "Mixed greens, beets, sunflower seeds, dried cranberries, maple dressing"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "title": "Deserts",
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "POUDING CHÔMEUR",
+                            "price": 7,
+                            "description": "Maple English cream, duck confit, gravy"
+                        },
+                        {
+                            "id": 2,
+                            "name": "APPLE CRUMBLE",
+                            "price": 7,
+                            "description": "Granola, honeycrisp apple"
+                        },
+                        {
+                            "id": 3,
+                            "name": "CRÈME BRÛLÉE OF THE MOMENT",
+                            "price": 7,
+                            "description": "Flavor of the moment"
+                        },
+                        {
+                            "id": 4,
+                            "name": "CHOCOLATE TORTE",
+                            "price": 7,
+                            "description": "Cherry & espresso jam with candied walnut"
+                        },
+                        {
+                            "id": 5,
+                            "name": "CHEESECAKE",
+                            "price": 7,
+                            "description": "Berry coulis"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "title": "Coffees",
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "ESPRESSO / DOUBLE",
+                            "price": 3,
+                            "description": ""
+                        },
+                        {
+                            "id": 2,
+                            "name": "AMERICANO",
+                            "price": 3.25,
+                            "description": ""
+                        },
+                        {
+                            "id": 3,
+                            "name": "Lungo",
+                            "price": 3.75,
+                            "description": ""
+                        },
+                        {
+                            "id": 4,
+                            "name": "Macchiato",
+                            "price": 3.75,
+                            "description": ""
+                        },
+                        {
+                            "id": 5,
+                            "name": "CAPPUCCINO",
+                            "price": 3.75,
+                            "description": ""
+                        },
+                        {
+                            "id": 6,
+                            "name": "CAFÉ LATTE",
+                            "price": 3.75,
+                            "description": ""
+                        },
+                        {
+                            "id": 7,
+                            "name": "ICED COFFEE",
+                            "price": 4.50,
+                            "description": ""
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "title": "TEAS (CHOICE OF TEA POT)",
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "GREEN TEA TROPICAL",
+                            "price": 4.75,
+                            "description": ""
+                        },
+                        {
+                            "id": 2,
+                            "name": "JASMINE GREEN TEA",
+                            "price": 4.75,
+                            "description": ""
+                        },
+                        {
+                            "id": 3,
+                            "name": "BOMBAI CHAÏ",
+                            "price": 4.75,
+                            "description": ""
+                        },
+                        {
+                            "id": 4,
+                            "name": "ENGLISH BREAKFAST",
+                            "price": 4.75,
+                            "description": ""
+                        },
+                        {
+                            "id": 5,
+                            "name": "CHAMOMILE & CITRUS",
+                            "price": 4.75,
+                            "description": ""
+                        },
+                        {
+                            "id": 6,
+                            "name": "ORGANIC VERBANA MINT",
+                            "price": 4.75,
+                            "description": ""
+                        },
+                        {
+                            "id": 7,
+                            "name": "EARL GREY",
+                            "price": 4.75,
+                            "description": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

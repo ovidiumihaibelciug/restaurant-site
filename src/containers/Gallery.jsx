@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import GalleryItem from "../components/GalleryItem";
+import GalleryItem from "../components/Gallery/GalleryItem";
 import App from "../App";
 
 export default class Gallery extends Component {
@@ -16,7 +16,22 @@ export default class Gallery extends Component {
                 text: 'wqeqweqweqwe',
                 img: 'http://apparelmagazine.co.nz/restaurantandcafe/wp-content/uploads/sites/3/2018/04/RC-NEWS-RESTAURANTS-TO-BECOME-HEALTH-HAVENS-0518.jpeg',
                 side: 2,
-            }
+            },
+            {
+                text: 'wqeqweqweqwe',
+                img: 'http://apparelmagazine.co.nz/restaurantandcafe/wp-content/uploads/sites/3/2018/04/RC-NEWS-RESTAURANTS-TO-BECOME-HEALTH-HAVENS-0518.jpeg',
+                side: 1,
+            },
+            {
+                text: 'wqeqweqweqwe',
+                img: 'http://apparelmagazine.co.nz/restaurantandcafe/wp-content/uploads/sites/3/2018/04/RC-NEWS-RESTAURANTS-TO-BECOME-HEALTH-HAVENS-0518.jpeg',
+                side: 2,
+            },
+            {
+                text: 'wqeqweqweqwe',
+                img: 'http://apparelmagazine.co.nz/restaurantandcafe/wp-content/uploads/sites/3/2018/04/RC-NEWS-RESTAURANTS-TO-BECOME-HEALTH-HAVENS-0518.jpeg',
+                side: 1,
+            },
         ]
     }
 

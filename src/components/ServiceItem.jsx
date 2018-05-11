@@ -1,8 +1,6 @@
 import React from 'react';
 
-// import icon1 from '../assets/img/icon1';
-
-import ScrollAnimation from 'react-animate-on-scroll'
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const ServiceItem = ({ icon, delay }) => {
     return (

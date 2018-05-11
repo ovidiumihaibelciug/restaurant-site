@@ -5,6 +5,8 @@ import App from '../App';
 import About from '../components/About';
 import Services from '../components/Services';
 
+import ScrollAnimation from 'react-animate-on-scroll';
+
 const scrollDown = () => {
     document.querySelector('#about').scrollIntoView({
         behavior: 'smooth', block: "start", inline: "nearest"
@@ -24,7 +26,7 @@ const Preview = () => {
             caption: 'Lorem ipsum dolor situm'
         }
     ];
-    var settings = {
+    let settings = {
         dots: true,
         infinite: true,
         slidesToShow: 1,
@@ -42,11 +44,15 @@ const Preview = () => {
                     <Slider {...settings}>
                         <div>
                             <img src={imgs[0].img} alt="" />
-                            <div className="preview-text">Lorem ipsum dolor sit amet.</div>
+                            <div className="preview-text animated fadeInUp">
+                                Lorem ipsum dolor sit amet.
+                            </div>
                         </div>
                         <div>
                             <img src={imgs[1].img} alt="" />
-                            <div className="preview-text">Lorem, ipsum dolor. </div>
+                            <div className="preview-text animated fadeInUp">
+                                Lorem, ipsum dolor.
+                            </div>
                         </div>
                     </Slider>
                     <div className="go-down-btn" onClick={scrollDown}>

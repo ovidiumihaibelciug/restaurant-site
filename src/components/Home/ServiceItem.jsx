@@ -2,21 +2,20 @@ import React from 'react';
 
 import ScrollAnimation from 'react-animate-on-scroll';
 
-const ServiceItem = ({ icon, delay }) => {
+const ServiceItem = ({ icon, item }) => {
+    const { id, title, description } = item;
     return (
-        <ScrollAnimation animateIn="lightSpeedIn" animateOut="fadeOut" delay={delay} >
-            <div className="box service-item">
-                <div className="service-icon" style={{ backgroundImage: `url(${icon})` }}>
-                </div>
-                <div className="service-title">
-                    Lorem, ipsum dolor.
-                </div>
-                <div className="service-description">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium necessitatibus at molestias sit totam odio culpa debitis eveniet pariatur quis?
-                </div>
+        <ScrollAnimation className="box service-item" animateIn="lightSpeedIn" animateOut="fadeOut" delay={id * 400} >
+            <div className="service-icon" style={{ backgroundImage: `url(${icon})` }}>
+            </div>
+            <div className="service-title">
+                {title}
+            </div>
+            <div className="service-description">
+                {description}
             </div>
         </ScrollAnimation>
     )
 }
 
-export default ServiceItem
+export default ServiceItem;

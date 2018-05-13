@@ -6,12 +6,22 @@ import icon2 from '../../assets/img/icon2.svg';
 import icon3 from '../../assets/img/icon3.svg';
 
 
-const Services = () => {
+const Services = ({ data }) => {
     return (
         <div className="services-section">
-            <ServiceItem icon={icon2} delay={0} />
-            <ServiceItem icon={icon3} delay={500} />
-            <ServiceItem icon={icon1} delay={1000} />
+            {
+                data.map(item => {
+                    let icon;
+                    if (item.id === 1) {
+                        icon = icon2;
+                    } else if (item.id === 2) {
+                        icon = icon3;
+                    } else {
+                        icon = icon1
+                    }
+                    return <ServiceItem key={item.id} icon={icon} item={item} />
+                })
+            }
         </div>
     )
 }

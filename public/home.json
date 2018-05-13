@@ -1,0 +1,67 @@
+{
+    "preview": [
+        {
+            "id": 1,
+            "caption": "A taste of local ingredients",
+            "image": "http://www.wallpapers4u.org/wp-content/uploads/restaurant_table_interior_modern_style_39288_1920x1080.jpg"
+        },
+        {
+            "id": 2,
+            "caption": "Step into Restaurant and feel at home",
+            "image": "https://www.pixelstalk.net/wp-content/uploads/images1/Free-hd-restaurant-wallpapers.jpg"
+        },
+        {
+            "id": 3,
+            "caption": "Best restaurant",
+            "image": "https://www.pixelstalk.net/wp-content/uploads/images1/Restaurant-backgrounds-HD.jpg"        
+        }
+    ],
+    "about": {
+        "title": "~ About us ~",
+        "description": "Whether you’re in the mood for a ‘small’ poutine or a ‘big’ salad, ‘just one’ beer or a double shot espresso, when it satisfies your tastebuds, it’s all good.Inspired by local flavours and Montrealers’ favourite dishes, Restaurant cooks serve up comforting and seasonal dishes that evoke and create the best memories.",
+        "items": [
+            {
+                "id": 1,
+                "title": "Top 3 Restaurant 2016",
+                "icon": "star"
+            },
+            {
+                "id": 2,
+                "title": "Best food of the day",
+                "icon": "cutlery"
+            },
+            {
+                "id": 3,
+                "title": "just a lemon",
+                "icon": "lemon-o"
+            },
+            {
+                "id": 4,
+                "title": "Services verified",
+                "icon": "check"
+            }
+        ]
+    },
+    "services": [
+        {
+            "id": 1,
+            "title": "The Monocle Restaurant Awards 2017",
+            "description": "Far from the hifalutin haute cuisine of other restaurant rundowns, Monocle’s third annual Restaurant Awards celebrate and elevate an endangered species: humble neighbourhood restaurants, smiley staff and simple service that often get lost in the fuss and froth of fine dining",
+            "icon": "icon1"
+        },
+        {
+            "id": 2,
+            "title": "The Best Chef Award",
+            "description": "Selection of the top 300 chefs in the world voted by chefs themselves as well as by culinary professional",
+            "icon": "icon2"
+        },
+        {
+            "id": 3,
+            "title": "The World Drinks Awards Winner",
+            "description": "The World Drinks Awards are the global awards recognising spirit drinks and the many styles within these categories. There are two separate strands to these awards – one is for taste and the other is for design excellence.",
+            "icon": "icon3"
+        }
+        
+    ]
+    
+}

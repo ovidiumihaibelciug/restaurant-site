@@ -2,18 +2,19 @@ import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 import AboutFooterItem from './AboutFooterItem';
 
-const About = () => {
+const About = ({ data }) => {
+    const { title, description, items } = data;
     return (
         <section id="about">
             <div className="container">
                 <ScrollAnimation animateIn="fadeInDown">
                     <div className="about-title">
-                        ~ About us ~
+                        {title}
                     </div>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInDown" delay={500}>
                     <div className="about-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente corporis sunt beatae earum corrupti maiores optio omnis cum dolorem incidunt, dolor ipsa voluptatibus. Repellendus qui, maxime magni iure tempora sint?
+                        {description}
                     </div>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="zoomIn">
@@ -21,10 +22,9 @@ const About = () => {
                 </ScrollAnimation>
             </div>
             <div className="about-footer">
-                <AboutFooterItem />
-                <AboutFooterItem />
-                <AboutFooterItem />
-                <AboutFooterItem />
+                {
+                    items.map(item => <AboutFooterItem item={item} />)
+                }
             </div>
         </section>
     );

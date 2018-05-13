@@ -4,6 +4,7 @@ import App from '../App';
 import NavMenu from '../components/Menus/NavMenu';
 import MenuItem from '../components/Menus/MenuItem';
 import MenusContainer from '../components/Menus/MenusContainer';
+import Loading from '../components/Loading';
 
 import axios from 'axios';
 import { HOST } from '../utils';
@@ -21,9 +22,7 @@ export default class Menus extends Component {
             .then(({ data }) => {
                 let menuId = props.match.params.menu;
                 menuId = menuId ? parseInt(menuId) : 1;
-                console.log("AAAAAAA", menuId)
                 let menuType = data.menus.filter(item => item.id === menuId);
-                console.log("VVVVVVVVVV", menuType);
                 this.setState({
                     menus: data.menus,
                     menuType: menuType[0],
@@ -45,7 +44,7 @@ export default class Menus extends Component {
         return (
             <App>
                 {
-                    loading ? <div>Loading</div> : (
+                    loading ? <Loading /> : (
                         <section id="menus">
                             <NavMenu menus={menus} />
                             <MenusContainer title={menuType.longTitle}>

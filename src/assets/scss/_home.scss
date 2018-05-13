@@ -64,23 +64,31 @@
     flex-direction: row;
     background: whitesmoke;
     padding: 0 30px;
+    width: 100%;
     .service-item {
         padding: 20px;
-        // text-align: center;
-        margin: 10% 30px;
+        text-align: center;
+        margin: 10% 2%;
         flex: 1;
+        width: 30%;
         height: auto;
         border-bottom: 7px solid $laser;
         display: flex;
-        justify-content: center;
+        // justify-content: center;
         align-items: center;
         flex-direction: column;
+        &:last-child {
+            margin-right: 50px;
+        }
         .service-icon {
             height: 100px;
             width: 100px;    
             background: url('../img/icon1.svg');
             background-size: cover;
             background-repeat: no-repeat; 
+            text-align: center; 
+            display: flex;
+            justify-content: center;
         }
         .service-title {
             font-size: 1.2rem;
@@ -88,6 +96,7 @@
             font-weight: 500;
             text-transform: uppercase;
             letter-spacing: 2px;
+            text-align: center;
         }
         .service-description {
             text-align: center;
@@ -108,13 +117,19 @@
             div {            
                 .preview-text {
                     position: absolute;
-                    top: 40%;
-                    margin-left: 10vw;
+                    top: 60%;
+                    margin-left: 8vw;
                     text-align: center;
                     color: white;
                     font-size: 3rem;
                     font-weight: bold;
-                    text-shadow: 1px 2px 2px rgba(0,0,0, .8);
+                    word-break: break-all;
+                    text-shadow: -2px 0px 7px rgba(0,0,0, .7);
+                }
+                img {
+                    max-width: calc(100vw - 15%);
+                    filter: grayscale(30%);
+                    // opacity: .75;
                 }
             }
         }
@@ -138,10 +153,10 @@
     box-sizing: border-box;
     z-index: 100;  
     color: black;
-    background-color: rgba($laser, .7);
+    background-color: rgba($quincy, .7);
     cursor: pointer;
     &:hover {
-    background-color: rgba($laser, .9)        
+    background-color: rgba($quincy, .9)        
     }
     i {
         width: 100%;

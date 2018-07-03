@@ -3,7 +3,7 @@
     text-align: center;
     display: grid;
     background-color: $mine_shaft;
-    grid-template-rows: 40% auto;
+    grid-template-rows: 40% auto 10%;
     -webkit-box-shadow: 3px 1px 16px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 3px 1px 16px -1px rgba(0,0,0,0.75);
     box-shadow: 3px 1px 16px -1px rgba(0,0,0,0.75);
@@ -68,5 +68,42 @@
                 }
             }
         }
+    }
+    .menu-item-book {
+        background-color: $ecru_white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.4rem;
+        color: rgba(0,0,0, .6);
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center; 
+                height: 100%;
+                width: 100%;
+                transition: .2s;
+                animation: swing ease-in-out infinite;
+                animation-duration: 1s;            
+                animation-delay: 3s; 
+                &:hover {
+                    background-color: rgba($laser, .5);
+                    color: white;
+                    cursor: pointer;
+                    animation-play-state: paused;
+                }
+            }
+    }
+}
+
+@keyframes pulse1 {
+    0% {
+        background-color: $ecru_white;  
+    }
+    50% {
+        background-color: rgba($color: $ecru_white, $alpha: .1)
+    }
+    100% {
+        background-color: $ecru_white;        
     }
 }

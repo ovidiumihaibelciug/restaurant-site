@@ -20,7 +20,8 @@ export default class Map extends Component {
         return (
             <div style={{ height: '100vh', width: '100%' }}>
                 <GoogleMapReact
-                    bootstrapURLKeys={{ key: "AIzaSyCxTTXT3XyYt1MMy10Y7yBEzMiNbd1b7Eo" }}
+                    language="ro"
+                    bootstrapURLKeys={{ key: "AIzaSyCxTTXT3XyYt1MMy10Y7yBEzMiNbd1b7Eo", language: "ro" }}
                     defaultCenter={this.props.center}
                     defaultZoom={this.props.zoom}
                     styles={mapStyles}

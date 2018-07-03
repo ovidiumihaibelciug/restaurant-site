@@ -22,6 +22,11 @@ const Sidebar = () => {
                     <Link to="/contact">Contact</Link>
                 </div>
             </div>
+            <div className="menu-item-book animated zoomIn">
+                <Link to="/book">
+                    Book
+                </Link>
+            </div>
         </section>
 
     );

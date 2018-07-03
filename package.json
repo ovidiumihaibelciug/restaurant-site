@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "animate.css": "^3.6.1",
+    "firebase": "^5.0.2",
     "font-awesome": "^4.7.0",
     "google-map-react": "^1.0.1",
     "node-sass-chokidar": "^1.1.2",
@@ -12,9 +13,11 @@
     "react-animate-on-scroll": "^2.1.4",
     "react-dom": "^16.2.0",
     "react-image-carousel": "^1.0.17",
+    "react-notifications": "^1.4.3",
     "react-responsive-carousel": "^3.1.37",
     "react-scripts": "1.1.1",
     "react-thunk": "^1.0.0",
+    "react-toastr": "^3.0.0",
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
